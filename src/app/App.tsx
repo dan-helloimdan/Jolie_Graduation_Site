@@ -151,11 +151,11 @@ function RsvpFormSection() {
     <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full px-[20px]" data-name="RSVP Form Section">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLScQB81UwiGYOjrngJWa-2m8jGjLx5KRdtemsWLnrObb14lZmg/viewform?embedded=true"
-        height="1000"
+        height="1200"
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
-        className="border-0 w-full h-[1000px]"
+        className="border-0 w-full h-[1200px]"
       >
         Loading…
       </iframe>
