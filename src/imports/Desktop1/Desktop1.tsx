@@ -44,7 +44,7 @@ function Hero() {
       <p className="font-['Noto_Serif:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[20px] text-black text-center whitespace-nowrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100" }}>
         She did it!
       </p>
-      <p className="font-['Soria:Soria',sans-serif] leading-none min-w-full not-italic relative shrink-0 text-[#47637e] text-[128px] text-center w-[min-content]">Jolie Spencer</p>
+      <p className="font-['Soria',sans-serif] leading-none min-w-full not-italic relative shrink-0 text-[#47637e] text-[128px] text-center w-[min-content]">Jolie Spencer</p>
       <InfoRow />
       <div className="h-[815px] relative rounded-bl-[16px] rounded-br-[16px] rounded-tl-[999px] rounded-tr-[999px] shrink-0 w-[643px]" data-name="Hero Image">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-bl-[16px] rounded-br-[16px] rounded-tl-[999px] rounded-tr-[999px] size-full" src={imgHeroImage} />
@@ -56,7 +56,7 @@ function Hero() {
 function FirstContent() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 text-center w-[792px]" data-name="First Content">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[80px] w-full">A New Chapter Begins</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[80px] w-full">A New Chapter Begins</p>
       <div className="font-['Noto_Serif:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#4d4d4d] text-[20px] w-full whitespace-pre-wrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100" }}>
         <p className="leading-[1.5] mb-0">Join us in celebrating Jolie as she reaches this exciting milestone. Graduation marks the end of one chapter and the beginning of another, and we’re so proud of everything she has accomplished along the way.</p>
         <p className="leading-[1.5] mb-0">&nbsp;</p>
@@ -93,7 +93,7 @@ function PictureCarousel() {
 function EventHeader() {
   return (
     <div className="content-stretch flex gap-[23px] items-center relative shrink-0" data-name="Event Header">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[48px] text-center whitespace-nowrap">Graduation Ceremony</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[48px] text-center whitespace-nowrap">Graduation Ceremony</p>
     </div>
   );
 }
@@ -127,7 +127,7 @@ function Wrapper() {
 function EventHeader1() {
   return (
     <div className="content-stretch flex gap-[23px] items-center relative shrink-0 w-[400px]" data-name="Event Header">
-      <p className="flex-[1_0_0] font-['Soria:Soria',sans-serif] leading-none min-h-px min-w-px not-italic relative text-[#47637e] text-[48px] text-center">Celebration Open House</p>
+      <p className="flex-[1_0_0] font-['Soria',sans-serif] leading-none min-h-px min-w-px not-italic relative text-[#47637e] text-[48px] text-center">Celebration Open House</p>
     </div>
   );
 }
@@ -164,7 +164,7 @@ function EventDetails() {
 function Wrap() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 text-center whitespace-nowrap" data-name="Wrap">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[48px]">RSVP</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[48px]">RSVP</p>
       <p className="font-['Noto_Serif:Bold',sans-serif] font-bold leading-[1.5] relative shrink-0 text-[20px] text-black" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100" }}>
         To help us plan, please let us know if you’ll be attending.
       </p>
@@ -196,7 +196,7 @@ function Rsvp() {
 function EventInfoContainer() {
   return (
     <div className="content-stretch flex flex-col gap-[48px] items-center justify-center overflow-clip px-[40px] relative shrink-0 w-[1440px]" data-name="Event Info Container">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[80px] text-center whitespace-nowrap">Celebrate With Us!</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[80px] text-center whitespace-nowrap">Celebrate With Us!</p>
       <EventDetails />
       <Rsvp />
     </div>
@@ -206,7 +206,7 @@ function EventInfoContainer() {
 function Wrapper2() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[588px]" data-name="Wrapper">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[80px] whitespace-nowrap">Can’t Make It?</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[80px] whitespace-nowrap">Can’t Make It?</p>
       <div className="h-0 relative shrink-0 w-full">
         <div className="absolute inset-[-1px_0_0_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 588 1">
@@ -263,7 +263,7 @@ function VenmoContainer() {
 function FooterContainer() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 text-center w-full" data-name="Footer Container">
-      <p className="font-['Soria:Soria',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#47637e] text-[80px] whitespace-nowrap">{`Looking Ahead `}</p>
+      <p className="font-['Soria',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#47637e] text-[80px] whitespace-nowrap">{`Looking Ahead `}</p>
       <div className="font-['Noto_Serif:Regular',sans-serif] font-normal leading-[0] min-w-full relative shrink-0 text-[#4d4d4d] text-[20px] w-[min-content] whitespace-pre-wrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100" }}>
         <p className="leading-[1.5] mb-0">Jolie’s graduation is more than just a ceremony—it’s the start of something new. As she prepares for what’s next at Missouri State University, we’re excited to see where her path leads and grateful for the people who have supported her along the way.</p>
         <p className="leading-[1.5] mb-0">&nbsp;</p>

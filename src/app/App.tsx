@@ -41,7 +41,7 @@ function Hero() {
       <p className="font-['Noto_Serif:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[16px] md:text-[20px] text-black text-center" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100" }}>
         She did it!
       </p>
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[48px] sm:text-[64px] md:text-[96px] lg:text-[128px] text-center">Jolie Spencer</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[48px] sm:text-[64px] md:text-[96px] lg:text-[128px] text-center">Jolie Spencer</p>
       <InfoRow />
       <div className="relative rounded-bl-[16px] rounded-br-[16px] rounded-tl-[999px] rounded-tr-[999px] shrink-0 w-full max-w-[643px] aspect-[643/815]" data-name="Hero Image">
         <img alt="" className="absolute inset-0 object-cover pointer-events-none rounded-bl-[16px] rounded-br-[16px] rounded-tl-[999px] rounded-tr-[999px] size-full" src={imgHeroImage} />
@@ -53,7 +53,7 @@ function Hero() {
 function FirstContent() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 text-center w-full max-w-[792px] px-[20px]" data-name="First Content">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[64px] lg:text-[80px] w-full">A New Chapter Begins</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[64px] lg:text-[80px] w-full">A New Chapter Begins</p>
       <div className="font-['Noto_Serif:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#4d4d4d] text-[16px] md:text-[18px] lg:text-[20px] w-full whitespace-pre-wrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100" }}>
         <p className="leading-[1.5] mb-0">Join us in celebrating Jolie as she reaches this exciting milestone. Graduation marks the end of one chapter and the beginning of another, and we're so proud of everything she has accomplished along the way.</p>
         <p className="leading-[1.5] mb-0">&nbsp;</p>
@@ -69,7 +69,7 @@ function FirstContent() {
 function EventHeader() {
   return (
     <div className="content-stretch flex gap-[23px] items-center relative shrink-0" data-name="Event Header">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[32px] md:text-[40px] lg:text-[48px] text-center">Graduation Ceremony</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[32px] md:text-[40px] lg:text-[48px] text-center">Graduation Ceremony</p>
     </div>
   );
 }
@@ -103,7 +103,7 @@ function Wrapper() {
 function EventHeader1() {
   return (
     <div className="content-stretch flex gap-[23px] items-center relative shrink-0" data-name="Event Header">
-      <p className="flex-[1_0_0] font-['Soria:Soria',sans-serif] leading-none min-h-px min-w-px not-italic relative text-[#47637e] text-[32px] md:text-[40px] lg:text-[48px] text-center">Celebration Open House</p>
+      <p className="flex-[1_0_0] font-['Soria',sans-serif] leading-none min-h-px min-w-px not-italic relative text-[#47637e] text-[32px] md:text-[40px] lg:text-[48px] text-center">Celebration Open House</p>
     </div>
   );
 }
@@ -140,7 +140,7 @@ function EventDetails() {
 function EventInfoContainer() {
   return (
     <div className="content-stretch flex flex-col gap-[32px] md:gap-[40px] lg:gap-[48px] items-center justify-center overflow-clip relative shrink-0 w-full max-w-[1440px]" data-name="Event Info Container">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[64px] lg:text-[80px] text-center">Celebrate With Us!</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[64px] lg:text-[80px] text-center">Celebrate With Us!</p>
       <EventDetails />
     </div>
   );
@@ -166,7 +166,7 @@ function RsvpFormSection() {
 function Wrapper2() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full lg:flex-1" data-name="Wrapper">
-      <p className="font-['Soria:Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px]">Can't Make It?</p>
+      <p className="font-['Soria',sans-serif] leading-none not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px]">Can't Make It?</p>
       <div className="h-0 relative shrink-0 w-full">
         <div className="absolute inset-[-1px_0_0_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 588 1">
@@ -217,7 +217,7 @@ function VenmoContainer() {
 function FooterContainer() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 text-center w-full" data-name="Footer Container">
-      <p className="font-['Soria:Soria',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[64px] lg:text-[80px]">{`Looking Ahead `}</p>
+      <p className="font-['Soria',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#47637e] text-[36px] sm:text-[48px] md:text-[64px] lg:text-[80px]">{`Looking Ahead `}</p>
       <div className="font-['Noto_Serif:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#4d4d4d] text-[16px] md:text-[18px] lg:text-[20px] w-full whitespace-pre-wrap" style={{ fontVariationSettings: "'CTGR' 0, 'wdth' 100" }}>
         <p className="leading-[1.5] mb-0">Jolie's graduation is more than just a ceremony—it's the start of something new. As she prepares for what's next at Missouri State University, we're excited to see where her path leads and grateful for the people who have supported her along the way.</p>
         <p className="leading-[1.5] mb-0">&nbsp;</p>
