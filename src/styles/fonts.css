@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: 'Soria';
-  src: url('../assets/fonts/soria-font.ttf') format('truetype');
+  src: url('../assets/fonts/soria-font-webfont.woff') format('woff'),
+       url('../assets/fonts/soria-font-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
